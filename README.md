@@ -7,7 +7,7 @@
 	<script type="text/javascript">
 		<% String price = request.getParameter()%>
 		var price = <%= price %>
-		$("#price").text(price)
+		$("#price").text(52)
 	</script>
 	<body>
 		<div style="background-color: #393a3f; color: aliceblue; height:250px;font-size: 60px; text-align: center;">确认交易</div>
